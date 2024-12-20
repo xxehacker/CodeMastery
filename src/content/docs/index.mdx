@@ -1,0 +1,59 @@
+---
+title: Welcome to Code Mastery
+description: Its a website for my programming notes
+template: splash
+hero:
+  tagline: This is a website for my programming notes
+  image:
+    file: ../../assets/gif6.webp
+  actions:
+    - text: Javascript
+      link: /javascript/lecture1
+      icon: right-arrow
+      variant: primary
+    - text: Python
+      link: /python/lecture1
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card , CardGrid , LinkButton , LinkCard , Aside  } from '@astrojs/starlight/components';
+
+
+## Next steps
+
+<CardGrid stagger>
+
+<LinkCard
+  title="Javascript"
+  href="/javascript/lecture1"
+  description="Javascript all notes"
+  class="h-14"
+/>
+
+<LinkCard
+  title="Python"
+  href="/python/lecture1"
+  description="Pyhton all notes"
+  class="h-14"
+/>
+
+<LinkCard
+  title="Java"
+  href="/java/lecture1"
+  description="Java all notes"
+  class="h-14"
+/>
+
+
+<LinkCard
+  title="Hacking"
+  href="#"
+  description="Hacking all notes"
+  class="h-14" 
+/>
+
+</CardGrid>
+
+
+{/* <Aside type="danger">Hacking is illegal</Aside> */}
