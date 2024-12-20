@@ -38,22 +38,6 @@ Follow these steps to set up the project locally:
    npm run dev
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`.
-
-## 📂 Folder Structure
-
-```
-code-mastery/
-├── public/
-├── src/
-│   ├── components/  # Reusable React components
-│   ├── pages/       # Application pages
-│   ├── styles/      # Global styles
-│   └── utils/       # Helper functions
-├── package.json
-└── README.md
-```
-
 ## 📧 Contact
 
 For questions or suggestions, please reach out:
